@@ -1,0 +1,12 @@
+# Ein einfaches Programm, um Benutzereingaben anzuzeigen
+
+def main():
+    while True:
+        user_input = input("Bitte gib etwas ein (oder 'exit' zum Beenden): ")
+        if user_input.lower() == 'exit':
+            print("Programm beendet.")
+            break
+        print(f"Du hast eingegeben: {user_input}")
+
+if __name__ == "__main__":
+    main()
